@@ -1,0 +1,18 @@
+.footer__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__text a {
+  margin-left: 32px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+  text-align: left;
+}
+
+.footer__text a:first-child {
+  margin-left: 0;
+}

@@ -1,0 +1,58 @@
+@media(max-width: 1000px) {
+  .header__inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+  }
+  .container__more {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1320px) {
+  .nav__list {
+    margin-right: 20px;
+  }
+  .city__h1 {
+    text-align: center;
+  }
+  .city__desc {
+    margin-left: 20px;
+  }
+  .city__img {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .city__img-main {
+    margin-left: 90px;
+  }
+  .wrapper__imgs {
+    margin-left: 40px;
+    margin-right: 20px;
+  }
+  .wrapper__imgs img {
+    margin-right: 20px;
+  }
+  .wrapper__imgs img:last-child {
+    margin-right: 0;
+  }
+} 
+
+@media(max-width:1020px) {
+  .wrapper__imgs  {
+    justify-items: center; /* Горизонтальное центрирование элементов */
+    align-items: center;
+  }
+}
+
+@media (max-width: 1615px) {
+  .container__more {
+    position: static;
+    margin-top: 35%;
+    transition: all 0.5s ease;
+  }
+}

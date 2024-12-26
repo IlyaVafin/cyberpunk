@@ -1,0 +1,44 @@
+.wrapper__city {
+  margin-bottom: 70px;
+}
+
+.city__h1 {
+  font-family: Archangelsk;
+  font-size: 62px;
+  font-weight: 400;
+  line-height: 63.3px;
+  text-align: left;
+  color: #000;
+  margin-top: 70px;
+  margin-bottom: 25px;
+}
+
+.city__desc {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  color: #000;
+  opacity: 0.6;
+  max-width: 952px;
+}
+
+.city__desc span {
+  color: rgb(5, 230, 255);
+  opacity: 1;
+}
+
+.city__img {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  margin-top: 70px;
+}
+
+.wrapper__imgs img {
+  margin-bottom: 32px;
+}
+
+.wrapper__imgs img:last-child {
+  margin-bottom: 0;
+}

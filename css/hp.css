@@ -1,0 +1,96 @@
+.hpshadow {
+  background-image: url('../img/hp/hpshadow.png');
+  max-width: 100vw;
+  height: 70px;
+}
+
+.wrapper__hp {
+  background: #F8F200;
+  padding-top: 70px;
+}
+
+.hp__company {
+  margin-left: 42px;
+  margin-top: 26px;
+  margin-bottom: 70px;
+}
+
+.hp__content {
+  display: flex;
+}
+
+.textcontent__list li {
+  list-style: none;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+  text-align: left;
+}
+
+.textcontent__h1 {
+  font-family: Archangelsk;
+  font-size: 62px;
+  font-weight: 400;
+  line-height: 63.3px;
+  text-align: left;
+  columns: #000;
+}
+
+.hp__textcontent {
+  margin-left: 32px;
+}
+
+.textcontent__desc {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  color: #000000;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.list-item {
+  margin-top: 25px;
+}
+
+.list-item::before {
+  content: url('../img/icons/art.svg');
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+.list-item2::before {
+  content: url('../img/icons/stars.svg');
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+.list-item3::before {
+  content: url('../img/icons/copy.svg');
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+.hp-btn button {
+  width: 194px;
+  height: 59px;
+  background: #000;
+  color: #F8F200;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.09px;
+  margin-top: 40px;
+}
+

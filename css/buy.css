@@ -1,0 +1,75 @@
+.list-item4::before {
+  content: url('../img/icons/Subtract.svg');
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+.list-item5::before {
+  content: url('../img/icons/Group.svg');
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+.list-item6::before {
+  content: url('../img/icons/collections.svg');
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+.buy__plat-imgs {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  max-width: 319px;
+}
+
+.buy__textcontent-plat {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.13px;
+  text-align: left;
+  color: #52BEDC;
+  margin-top: 70px;
+  margin-bottom: 25px;
+}
+
+.buy__content {
+  display: flex;
+}
+
+.buy__textcontent {
+  padding-top: 70px;
+  padding-left: 32px;
+  padding-bottom: 77px;
+  background: #000;
+  width: 100vw;
+  max-height: 717px;
+  margin-left: 0px;
+}
+
+.buy__textcontent-h1 {
+  font-family: Archangelsk;
+  font-size: 62px;
+  font-weight: 400;
+  line-height: 63.3px;
+  text-align: left;
+  color: #fff;
+  max-width: 624px;
+  margin-bottom: 25px;
+}
+
+.buy__textcontent-comp {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.13px;
+  text-align: left;
+  color: #52BEDC;
+}
+
+.textcontent__list {
+  color: #fff;
+}
